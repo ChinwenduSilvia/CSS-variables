@@ -1,0 +1,32 @@
+:root {
+    --base: #6cc792;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.cl {
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.functions {
+    margin-bottom: 50px
+}
+
+input {
+    width: 200px;
+}
